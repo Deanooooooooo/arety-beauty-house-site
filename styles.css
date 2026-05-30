@@ -4,3 +4,4 @@
 .gallery-grid.refined img:first-child{object-position:center 35%}
 @media(max-width:860px){.gallery-grid.refined{grid-template-columns:1fr;grid-auto-rows:auto}.gallery-grid.refined img{aspect-ratio:4/3}.gallery-grid.refined img:first-child{aspect-ratio:1/1}}
 .text-gallery-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}.text-gallery-grid article{background:#fff;border:1px solid var(--line);border-radius:24px;padding:24px}.text-gallery-grid p{color:var(--muted);margin:0}@media(max-width:860px){.text-gallery-grid{grid-template-columns:1fr}}
+@media(max-width:860px){.map-wrap{display:none}.map-section{grid-template-columns:1fr}.map-copy{border-radius:24px}}

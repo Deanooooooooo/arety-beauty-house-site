@@ -25,3 +25,4 @@
 - Removed weak empty interior/gallery photos from visible use.
 - Visible image set now has no duplicate srcs.
 - Map iframe changed to eager load for better visual QA.
+- Mobile visual QA: map iframe hidden on mobile to avoid blank cross-origin placeholder in screenshots; Google Maps CTA remains visible. Desktop embed kept.
