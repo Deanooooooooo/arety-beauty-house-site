@@ -19,3 +19,9 @@
 7. Map/local SEO audit — PASS pending screenshot. Bottom map block directly above footer, one visible navigation CTA in map block, iframe URL uses full name/address.
 8. Responsive visual QA — PASS after local screenshots: `artifacts/arety-local-desktop.png`, `artifacts/arety-local-mobile.png`; footer icons are consistent SVG circles.
 9. Final live QA — PASS after deploy: live page HTTP 200; contains business name, Grabo testimonial phrase, canonical/OG/schema/map block.
+
+## 2026-05-30 image-quality correction
+- Replaced weak/blurry hero image with cleaner verified treatment-room image.
+- Removed weak empty interior/gallery photos from visible use.
+- Visible image set now has no duplicate srcs.
+- Map iframe changed to eager load for better visual QA.
